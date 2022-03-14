@@ -1,6 +1,6 @@
-const cat  = document.querySelector ('a')
+let cat  = document.querySelector ('a')
 
-cat.addEventListener ('click', function () {
+cat.addEventListener ('click', function ()  {
 
 if (cat.innerHTML == '😻') {
     cat.innerHTML = '😹'}
