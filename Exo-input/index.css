@@ -1,0 +1,13 @@
+body{background-color: rgb(226, 141, 226);}
+
+button {width: 150px;
+        border: none;
+        background-color: rgb(226, 141, 226);}
+ 
+p {text-align: center;
+   font-size: 30px;
+   color: black;}        
+
+.color {width: 250px;}
+
+.title {font-size: 20px;}
