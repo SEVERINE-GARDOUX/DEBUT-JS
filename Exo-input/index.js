@@ -20,11 +20,10 @@ couleur.addEventListener ('click', function () {
 
 
 //Pour afficher une image par rapport a une ls déroulante
-const image = document.querySelector ('#selectimage')
-const but = document.querySelector ('.but')
+const image = document.querySelector ('#serie')
 
-image.addEventListener ('click', function () {
-    document.querySelector ('body').style.background = image.value
+image.addEventListener ('change', function (e) {
+    document.querySelector ('footer').style.backgroundImage = `url(${image.value})`
 }
 )
 
@@ -33,12 +32,4 @@ image.addEventListener ('click', function () {
 // on change dans le doc les éléments avec ID selectimage par rapport a la value du src
 // mais du coup est-ce qu'il faut declarer une const ????
 
-
-// Ou alors
-// const image = document.querySelector ('img')
-// image.addEventListener ('click', function () {
-//     if (Option.value == "bbt") {
-//         body.style.background = src.value
-// } 
-// }
-// )
+// Pour lancer un audio au clic de façon aléatoire
