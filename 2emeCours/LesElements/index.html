@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>les éléments</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     
@@ -16,15 +17,17 @@
 <p>id = document.getElementById, class = document.getElementsByClassName</p>
 <p>name = document.getElementsByName</p>
 <p>Par sa balise, on utilise document.getElementsByTagName.</p>
-
+<br>
 
 <form action="">
-    <div class="form-line"> <input type="text" name="username">   </div>
+    <div class="form-line"> 
+        <label for="username">Username</label> <br>
+        <input type="text" name="username">   </div>
     <div class="form-line"><input type="email" name="email"> </div>
     <div class="form-line"><input type="password" name="password"> </div>
 </form>
 
-
+<br>
 <section id="html" class="section">
 <h2>Cours Html</h2>
 <article class="article">
@@ -35,7 +38,7 @@ Provident enim, tempore praesentium voluptate sit deserunt officia dolorem ea pa
 Veritatis sit provident similique id nesciunt suscipit, voluptas eaque, animi sint modi autem fugit, reprehenderit iure. Et ipsam, atque voluptatum velit nihil corrupti, excepturi ab, veniam delectus rem similique consequuntur?
 </article>
 </section>
-
+<br>
 <section id="css" class="section">
     <h2>Cours Css</h2>
     <article class="article">
@@ -46,7 +49,7 @@ Veritatis sit provident similique id nesciunt suscipit, voluptas eaque, animi si
     Veritatis sit provident similique id nesciunt suscipit, voluptas eaque, animi sint modi autem fugit, reprehenderit iure. Et ipsam, atque voluptatum velit nihil corrupti, excepturi ab, veniam delectus rem similique consequuntur?
     </article>
     </section>
-
+<br>
     <section id="javascript" class="section">
         <h2>Cours Javascript</h2>
         <article class="article">
@@ -57,9 +60,22 @@ Veritatis sit provident similique id nesciunt suscipit, voluptas eaque, animi si
         Veritatis sit provident similique id nesciunt suscipit, voluptas eaque, animi sint modi autem fugit, reprehenderit iure. Et ipsam, atque voluptatum velit nihil corrupti, excepturi ab, veniam delectus rem similique consequuntur?
         </article>
         </section>
+<br>
+<img src="./Capture d’écran 2022-03-20 162251.png" alt=""> <br>
+<br>
+<br><img src="./Capture d’écran 2022-03-20 184559.png" alt="">
 
-<img src="./Capture d’écran 2022-03-20 162251.png" alt="">
+<br>
+<h2>Manipuler les élements</h2>
+<br>
+<p>On peut utliser soit innerHTML soit textContent</p>
+<p>InnerHTML représente le contenu html d'un élément. Sa valeur contient des balises Html et son contenu est interprété par le navigateur.</p>
+<p>textContent représente le contenu textuel d'un élément, sa valeur ne contient pas de balises et n'est pas interprété par le navigateur.</p>
 
+<p>On peut manipuler les propriétés css, pour cela il faudra remplacer les propriétes avec tiret comme suit :</p>
+<p>font-size devient fontSize, background-color devient backgroundColor</p>
+<p>On doit faire du style en js comme suit : (il n'est pas conseiller de faire du style en js)</p>
+<p>element.style.backgroundColor ='red'</p>
 
 </body>
 <script src="./index.js"></script>

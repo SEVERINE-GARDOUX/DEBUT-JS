@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenements</title>
+</head>
+<body>
+    
+<h1>Les évènements</h1>
+<div class="1er">
+<p>Un évènement caractèrise l'action réalisée et dépend de l'élément cible sur lequel porte l'action.</p>
+ <p>Ex : click, keydown, mouseover, etc...</p>
+<p>Il y a des évènements liés au changement d'état (change, focus, etc...)</p>
+<p>Ou encore lié au chargement de l'élément : load... </p>
+</div>
+
+<h2>La programmation évènementielle</h2>
+
+<p>Elle consiste à lier une fonction à l'occurence d'un évènement sur un élément.</p>
+<p>On parle d'abonnement de la fonction à l'élément pour l'évènement.</p>
+<p>La fonction est déclenchée (exécutée) lorsque l'évènement se produit sur la cible (target)</p>
+<br>
+<img src="./addEventListener.png" alt="">
+<br>
+
+<p>Il existe une méthode de désabonnement: </p>
+<p>removeEventListener</p>
+
+
+<h2>L'objet Event</h2>
+<p>C'est un objet event créé pour chaque évènement, son type varie selon l'évènement.</p>
+<p>Il possède des propriétés qui informent sur l'évènement.</p>
+<p>key = info sur la touche appuyée (altkey, ctrkey, ...)</p>
+<p>target = cible de l'évènement</p>
+<p>timestamp = le moment de création de l'évènement.</p>
+
+
+</body>
+<script src="./index.js"></script>
+</html>

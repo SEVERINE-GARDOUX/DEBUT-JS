@@ -16,3 +16,5 @@ let body = document.getElementsByTagName ('body')
 //par selecteur css
 let section = document.querySelectorAll ('section')
 let css = document.querySelector ('#css')
+
+let formLine = document.querySelector ('.form-line')
