@@ -1,7 +1,7 @@
+let enterButton = document.getElementById ('enter')
 let input = document.getElementById ('userInput')
 let ul = document.querySelector ('ul')
 let item = document.getElementsByTagName ('li')
-let enterButton = document.getElementById ('enter')
 
 function inputLength () {
     return input.value.lenght
