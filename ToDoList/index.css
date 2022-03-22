@@ -19,7 +19,10 @@ h1 {color: orangered;}
 
 button {background: transparent;
       width: 50px;
-      border: none;}         
+      border: none;
+      font-size: 20px;
+      color: orangered;
+      font-weight: bold;}         
 
 
 header .date {font-size: 1rem;}

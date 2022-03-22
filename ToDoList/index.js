@@ -9,7 +9,7 @@ const year= date.getFullYear()
 console.log(year)
 
 dateBox.innerHtml = 'Date:<span>'+day+ '-' + month+ '-' + year + '</span>'
-
+}
 // Ls +  alerte quand on a rien rempli
 button.addEventListener ('click', function (){
     if (champ.value == ' ') {
@@ -18,5 +18,4 @@ button.addEventListener ('click', function (){
     const li = document.creatElement ('li')
     li.innerHtml = champ.value      
     ul.appendChild(li)
-)} 
-}
+)}
