@@ -20,7 +20,7 @@
                     margin-left: 2px;}
 
 .wrapper .heading { font-size: 3.5rem;
-                   color: #ff0;}
+                   color: orangered;}
 
 .wrapper .todo {position: relative;
                 display: flex;
@@ -41,10 +41,12 @@
 .wrapper .todo .addToDo form input{position: relative;
                                 height: 100%;}
 
-.wrapper .todo .addToDo form input[type="text"] {width: 80%;
+.wrapper .todo .addToDo form input[type="text"] {width: 65%;
                                                 border: 0;
                                                 border-bottom: 2px solid #fff;
                                                 padding: 15px 10px;
                                                 background: transparent;}
-.wrapper .todo .addToDo form input[type="submit"] {width: 10%;
-                                                   cursor: pointer;}
+.wrapper .todo .addToDo form input[type="submit"] {width: 25%;
+                                                  border: none;
+                                                  background: transparent;
+                                                  cursor: pointer;}
