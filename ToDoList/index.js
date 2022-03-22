@@ -18,9 +18,8 @@ todo.onsubmit = function (e) {
     }else {
     input.onsubmit = () => {
     const li = document.creatElement ('li')
-    li.innerHtml = champ.value
-
-ul.appendChild(li)
+    li.innerHtml = champ.value      
+    ul.appendChild(li)
 }}
 }
 }
