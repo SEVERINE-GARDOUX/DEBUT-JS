@@ -10,18 +10,17 @@ console.log(year)
 
 dateBox.innerHtml = 'Date:<span>'+day+ '-' + month+ '-' + year + '</span>'
 
-// // pour alerte quand on a rien rempli
-// const formTodo = document.querySelector ('.formTodo')
-// formTodo.onsubmit = function (e) {
-    
-// }
-// }
-
-input.onsubmit = () => {
+// Ls +  alerte quand on a rien rempli
+const todo = document.querySelector ('.todo')
+todo.onsubmit = function (e) {
+    if (champ.value == ' ') {
+     alert('N oubli pas de saisir quelque chose Padawan !')
+    }else {
+    input.onsubmit = () => {
     const li = document.creatElement ('li')
     li.innerHtml = champ.value
 
 ul.appendChild(li)
-champ.value = ' '
-alert('N oubli pas de saisir quelque chose Padawan !')
 }}
+}
+}
