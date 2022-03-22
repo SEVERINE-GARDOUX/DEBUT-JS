@@ -11,15 +11,12 @@ console.log(year)
 dateBox.innerHtml = 'Date:<span>'+day+ '-' + month+ '-' + year + '</span>'
 
 // Ls +  alerte quand on a rien rempli
-const todo = document.querySelector ('.todo')
-todo.onsubmit = function (e) {
+button.addEventListener ('click', function (){
     if (champ.value == ' ') {
      alert('N oubli pas de saisir quelque chose Padawan !')
     }else {
-    input.onsubmit = () => {
     const li = document.creatElement ('li')
     li.innerHtml = champ.value      
     ul.appendChild(li)
-}}
-}
+)} 
 }
