@@ -1,0 +1,26 @@
+* {margin: 0;
+   padding: 0;
+   line-height: 2.5;}
+
+header {background: linear-gradient(#e66465, #9198e5);
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+
+.btn {width: 200px;
+      height: 35px;
+      border: none;}
+
+input {width: 700px;
+      height: 35px;
+      border: none;}
+
+ul {margin-top: 20px;
+    text-align: left;}
+    
+li { list-style: none;
+    background: linear-gradient(#e66465, #9198e5);}
+
+.delete {display: none;}
