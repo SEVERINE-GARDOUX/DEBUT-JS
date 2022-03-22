@@ -1,36 +1,50 @@
 * {margin: 0;
-   padding: 0;
-   line-height: 2.5;}
+   padding: 0;}
 
-header {background: linear-gradient(#e66465, #9198e5);
-        height: 150px;
+.wrapper {position: relative;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);        color : black;
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;}
+        align-items: center;
+        justify-content: space-around;}
 
-#enter {width: 200px;
-      height: 35px;
-      border: none;}
+.wrapper .date { position :absolute;
+                top: 5%;
+                right: 5%;
+                font-size: 0.99rem;
+                font-weight: 800;}
 
-input {width: 700px;
-      height: 35px;
-      border: none;}
+.wrapper .date span { color: black;
+                    margin-left: 2px;}
 
-ul {margin-top: 20px;
-    text-align: left;}
-    
-li { list-style: none;
-    color: black;
-    background: linear-gradient(#e66465, #9198e5);}
+.wrapper .heading { font-size: 3.5rem;
+                   color: #ff0;}
 
-li:hover{background: #76CFE0;}
-    
-li > button {font-weight: normal;
-        background: none;
-        border: none;
-        float: right;
-        color: #025f70;
-        font-weight: 800;}
+.wrapper .todo {position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                height: 60%;
+                width: 50%;}
 
-.delete {display: none;}
+.wrapper .todo .addToDo {position: relative;
+                        height: 40px;
+                        width: 100%;}
+
+.wrapper .todo .addToDo form {position: relative;
+                             height: 100%;
+                             width: 100%;}
+
+.wrapper .todo .addToDo form input{position: relative;
+                                height: 100%;}
+
+.wrapper .todo .addToDo form input[type="text"] {width: 80%;
+                                                border: 0;
+                                                border-bottom: 2px solid #fff;
+                                                padding: 15px 10px;
+                                                background: transparent;}
+.wrapper .todo .addToDo form input[type="submit"] {width: 10%;
+                                                   cursor: pointer;}

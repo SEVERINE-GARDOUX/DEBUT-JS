@@ -1,36 +1,18 @@
-let enterButton = document.getElementById ('enter')
-let input = document.getElementById ('userInput')
-let ul = document.querySelector ('ul')
-let item = document.getElementsByTagName ('li')
+window.onload = ()=>{     // Pour mettre une date
+const dateBox = document.querySelector ('.date')
+const date = new Date()
+const day = date.getDate()
+console.log(day);
+const month = date.getMonth()
+console.log(month)
+const year= date.getFullYear()
+console.log(year)
 
-function inputLength () {
-    return input.value.lenght
-}
+dateBox.innerHtml = 'Date:<span>'+day+ '-' + month+ '-' + year + '</span>'
 
-function createListElement () {
-    let li = document.createElement ('li')
-    ul.appenChild (li)
-    input.value = " "
+// pour submit
+const formToDO = document.querySelector ('.formToDo')
+formToDO.onsubmit = function (e) {
 
-function crossOut () {
-    li.classList.toggle('done')
-} 
-    li.addEventListener ('click', crossOut)
-
-    let dBtn = document.createElement('button')
-    dBtn.appenChild (document.createTextNode('X'))
-    li.appendChild (dBtn)
-    dBtn.addEventListener ('click', deleteListItem)
-
-function deleteListItem () {
-    li.classList.add ('delete')
 }
 }
-
-function addListAfterClick () {
-    if (inputLenght () > 0) {
-        createListElement ()
-    }
-}
-
-enterButton.addEventListener ('click', addListAfterClick)
