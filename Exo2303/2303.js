@@ -16,3 +16,17 @@ h1.addEventListener ('click', function (e) {
     // console.log (e.target)
     h1.style.background = e.target.dataset.background2
 })
+
+const playemoji= () => {
+  emoji= document.querySelector('p');
+
+   emoji.addEventListener('click', function() {
+
+     if(emoji.textContent == '😇'){
+       emoji.textContent = '🤠 '
+     } else {
+         emoji.textContent = '😇'
+     }
+   })
+ }
+ playemoji()
