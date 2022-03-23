@@ -8,20 +8,20 @@ console.log(month)
 const year= date.getFullYear()
 console.log(year)
 
-dateBox.innerHtml = '<span>'+day+ '-' + month+ '-' + year + '</span>'
+dateBox.innerHTML = 'Date : <span>'+ day + '-' + month + '-' + year + '</span>'
 console.log (dateBox)
 }
 
 // Ls +  alerte quand on a rien rempli
-// const button = document.querySelector ('button')
-// const ul = document.querySelector ('ul')
+const button = document.querySelector ('button')
+const ul = document.querySelector ('ul')
 
-// button.addEventListener ('click', function () {
-//     if (champ.value == ' ') {
-//      alert('N oubli pas de saisir quelque chose Padawan !')
-//     }else {
-//     const li = document.createElement ('li')
-//     li.innerHtml = champ.value      
-//     ul.appendChild(li)
-// }
-// }) 
+button.addEventListener ('click', function () {
+    if (champ.value == ' ') {
+     alert('N oubli pas de saisir quelque chose Padawan !')
+    }else {
+    const li = document.createElement ('li')
+    li.innerHtml = champ.value      
+    ul.appendChild(li)
+}
+}) 
