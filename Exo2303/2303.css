@@ -1,0 +1,16 @@
+* {margin: 0;
+   padding: 0;
+   background: linear-gradient(0.25turn, #FF7F50, #DAA520, #9ACD32);}
+
+button {width: 55px;
+        border: none;}
+
+h1 {text-align: center;}
+
+.clignote {color:green;
+        animation: clignote 2s linear infinite;
+        border: none;
+}
+@keyframes clignote {  
+50% { opacity: 0; }
+}
