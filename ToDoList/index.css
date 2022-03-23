@@ -1,14 +1,14 @@
 * {margin: 0;
    padding: 0;}
 
-header{background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);       
-       color : black;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;}
+body{background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);       
+     color : orange;
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;}
 
 h1 {color: orangered;}
 
@@ -19,15 +19,16 @@ h1 {color: orangered;}
          background: transparent;}
 
 button {background: transparent;
-      width: 50px;
-      border: none;
-      font-size: 20px;
-      color: orangered;
-      font-weight: bold;}         
+        width: 50px;
+        border: none;
+        font-size: 20px;
+        color: orangered;
+        font-weight: bold;}         
 
+.date {width: 150px;
+      height: 40px;
+      background-color: grey;
+      margin-left: 750px;}
 
-.date {font-size: 30PX;}
-
-.date  span {color: black;
-                   font-size: 30PX;
-                   margin-left: 2px;}
+.date span {color: black;
+            font-size: large;}
