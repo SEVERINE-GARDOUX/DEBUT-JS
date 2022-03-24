@@ -2,7 +2,6 @@
 
 //Exo 49
 const exo49 = document.querySelector ('.car')
-
 exo49.addEventListener('click', function () {
         div.classList.toogle('.anime')
 }
@@ -11,18 +10,18 @@ exo49.addEventListener('click', function () {
 //Exo 50
 const exo50 = document.querySelector ('.exo50')
 exo50.addEventListener ('click', function () {
-    exo50.innerHTML == 'Aïe 😨'   
+    exo50.textContent =='Clique ici 😊'
+    exo50.textContent = 'Aïe 😨' 
 })
 
 //Exo51
-const bip = document.querySelector ('.exo51')
-bip.addEventListener ('click', function () {
+const exo51 = document.querySelector ('.exo51')
+exo51.addEventListener ('click', function () {
     if (bip.textContent == "🌈"){
         bip.textContent = "⛈️"
-        return
+        
    } if (bip.textContent == "⛈️"){
-        bip.textContent = "🌈"
-        return
+         bip.textContent = "🌈"   
    }
 })
 

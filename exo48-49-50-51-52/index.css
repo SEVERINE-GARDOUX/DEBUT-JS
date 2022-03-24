@@ -1,21 +1,21 @@
 div {width: 100px;
     height: 100px;
     background-color: green;
-    margin-left: 600px;
+    margin-left: 100px;
     display: flex;
     align-items: center;
     color: white;}
 
 div:hover {background-color: rgb(3, 171, 223);
            border-radius: 20%;
-            transition: 1.5s;}
+           transition: 1.5s;}
 
 .car {width: 100px;
-    height: 100px;
-    background-color: rgb(219, 97, 219);
-    margin-left: 400px;
-    display: flex;
-    align-items: center;}
+      height: 100px;
+      background-color: rgb(219, 97, 219);
+      margin-left: 300px;
+      display: flex;
+      align-items: center;}
         
 .car:hover {background-color: rgb(152, 250, 25);
             border-radius: 20%;
