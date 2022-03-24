@@ -1,0 +1,41 @@
+div {width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    color: white;}
+
+div:hover {background-color: purple;
+           border-radius: 20%;
+            transition: 1s;}
+
+.car {width: 100px;
+    height: 100px;
+    background-color: rgb(219, 97, 219);
+    margin-left: 400px;
+    display: flex;
+    align-items: center;}
+        
+.car:hover {background-color: rgb(152, 250, 25);
+            border-radius: 20%;
+            transition: 2s;}
+
+button {background-color: transparent;
+        border: none;
+        color : white}
+
+.exo50 {color: orangered;
+        width: 250px;
+        height: 30px;
+        font-size: 25px;
+        margin-left: 100px;}
+
+.anime {animation: rotation 2s infinite;
+        background-color: blueviolet;}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(360deg);
+    }
+}

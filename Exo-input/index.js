@@ -26,10 +26,3 @@ image.addEventListener ('change', function (e) {
     document.querySelector ('footer').style.backgroundImage = `url(${image.value})`
 }
 )
-
-// Ou alors
-// onchange = document.getElementById('#selectimage').src = this.value
-// on change dans le doc les éléments avec ID selectimage par rapport a la value du src
-// mais du coup est-ce qu'il faut declarer une const ????
-
-// Pour lancer un audio au clic de façon aléatoire
