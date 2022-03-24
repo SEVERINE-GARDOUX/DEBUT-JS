@@ -6,7 +6,7 @@ div {width: 100px;
     align-items: center;
     color: white;}
 
-div:hover {background-color: purple;
+div:hover {background-color: rgb(3, 171, 223);
            border-radius: 20%;
             transition: 1.5s;}
 
