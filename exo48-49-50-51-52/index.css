@@ -8,7 +8,7 @@ div {width: 100px;
 
 div:hover {background-color: purple;
            border-radius: 20%;
-            transition: 1s;}
+            transition: 1.5s;}
 
 .car {width: 100px;
     height: 100px;
@@ -19,9 +19,9 @@ div:hover {background-color: purple;
         
 .car:hover {background-color: rgb(152, 250, 25);
             border-radius: 20%;
-            transition: 2s;}
+            transition: 1.5s;}
 
-button {background-color: transparent;
+.exo49 {background-color: transparent;
         border: none;
         color : white}
 
@@ -29,13 +29,26 @@ button {background-color: transparent;
         width: 250px;
         height: 30px;
         font-size: 25px;
-        margin-left: 100px;}
+        margin-left: 100px;
+        border: none;
+        background-color: transparent;}
 
 .anime {animation: rotation 2s infinite;
         background-color: blueviolet;}
 
 @keyframes rotation {
-    0%{
+    to{
         transform: rotate(360deg);
     }
 }
+
+.exo51 {width: 100px;
+        height: 20px;
+        background-color: aqua;
+        margin-left: 250px;
+        border: none;}
+
+.exo52 {width: 180px;
+        height: 25px;
+        border: none;
+        margin-left: 950px;}
