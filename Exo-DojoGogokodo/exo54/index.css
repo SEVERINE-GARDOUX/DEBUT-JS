@@ -1,0 +1,55 @@
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    12.5%,
+    25% {
+        -webkit-transform: rotate(-90deg);
+    }
+    37.5%,
+    50% {
+        -webkit-transform: rotate(-180deg);
+    }
+    62.5%,
+    75% {
+        -webkit-transform: rotate(-270deg);
+    }
+    87.5%,
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform:  rotate(0deg);
+    }
+    12.5%,
+    25% {
+        -webkit-transform: rotate(90deg);
+    }
+    37.5%,
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    62.5%,
+    75% {
+        -webkit-transform: rotate(270deg);
+    }
+    87.5%,
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.contenair {display: flex;
+            justify-content: center;
+            height: 100vh;}
+
+.carré {
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    -webkit-animation: rotation 4s infinite;
+    animation : rotation 4s infinite linear}
+
